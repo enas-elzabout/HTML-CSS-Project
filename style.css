@@ -1,0 +1,158 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	font-size: small;
+	color: #222;
+	font-family: arial,sans-serif;
+}
+
+a{
+	cursor: default;
+    text-decoration: none;
+	color: rgb(95, 99, 104);
+}
+
+nav{
+	min-width: 220px;
+	padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    position: relative;
+    text-align: right;
+    z-index: 986;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.but_SignIn{
+	border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    color: #fff;
+    margin: 0 0 0 15px;
+}
+
+.icon_app{
+	display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0 0 0 15px;
+}
+
+.nav{
+	margin: 0 0 0 15px;
+}
+
+.nav:hover{
+	text-decoration:underline;
+}
+
+.image_google{
+	padding-top: 109px;
+	height: 92px;
+    width: 272px;
+}
+
+.div_search{
+    border: 1px solid #f2f2f2;
+    width: 400px;
+    height: 36px;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+.fa-search{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.input_search{
+	border: none;
+	width: 350px;
+
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+}
+
+.but_Google , .but_Lucky{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.but_Google:hover , .but_Lucky:hover{
+	border: 1px solid #5F6368;
+	border-radius: 2px;
+}
+
+.AR{
+	color: rgb(26, 13, 171);
+}
+.AR:hover{
+	text-decoration: underline;
+}
+.but_under_input{
+	margin-top: 20px;
+}
+
+.footer-format{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul {
+    border-top: 1px solid #c2c2c2;
+    padding: 5px;
+}
+
+li a{
+	display: block;
+    margin:7px 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer_left{
+	float:left;
+}
+
+.footer_right{
+	float:right;
+}
+
+ul li a:hover{
+	text-decoration: underline;
+}
